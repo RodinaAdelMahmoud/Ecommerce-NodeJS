@@ -76,7 +76,7 @@ export const updateSubCategory = handleError(async (req, res, next) => {
 
 
 // delete CATEGORY
-export const deleteCategory = handleError(async (req, res, next) => {
+export const deleteSubCategory = handleError(async (req, res, next) => {
     const { name } = req.body;  
    
   
