@@ -9,7 +9,7 @@ router.post('/',auth(systemRoles.admin),  uploadImage('image'), SC.addSubCategor
 
 router.get('/', SC.getSubCategory);
 router.patch('/', auth(systemRoles.admin),uploadImage('image'),SC.updateSubCategory);
-router.delete('/', auth(systemRoles.admin),SC.deleteCategory);
+router.delete('/', auth(systemRoles.admin),SC.deleteSubCategory);
 
 
 export default router;
