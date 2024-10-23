@@ -5,7 +5,7 @@ import { handleError } from "../../../utils/globalErrorHandler.js";
 import brandModel from './../../../db/models/brand.model.js';
 
 
-// ADD Product
+// ADD Brand
 export const addBrand = handleError(async (req, res, next) => {
   const { name ,subCategory,category} = req.body;
 
